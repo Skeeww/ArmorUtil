@@ -8,7 +8,6 @@ version '1.0-SNAPSHOT'
 sourceCompatibility = 1.8
 
 repositories {
-    maven { url "https://repo.dmulloy2.net/nexus/repository/public/" }
     maven { url = 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/' }
     maven {
         name 'BungeeCord'
@@ -20,5 +19,4 @@ repositories {
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
     compileOnly 'org.spigotmc:spigot-api:1.12-R0.1-SNAPSHOT'
-    compileOnly group: "com.comphenix.protocol", name: "ProtocolLib", version: "4.4.0";
 }
