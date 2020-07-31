@@ -8,7 +8,12 @@
   <component name="ChangeListManager">
     <list default="true" id="64942803-8eee-4dd9-9c6f-a9d9df6c757e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/fr/skewram/ArmorUtil/ArmorSpawn.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/fr/skewram/ArmorUtil/ArmorSpawn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/skewram/ArmorUtil/ArmorSpawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/skewram/ArmorUtil/ArmorSpawn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/skewram/ArmorUtil/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/skewram/ArmorUtil/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -7,7 +7,6 @@ public class Main extends JavaPlugin {
     public void onEnable() {
         saveDefaultConfig();
         getCommand("asp").setExecutor(new ArmorSpawn(this));
-
         System.out.println("[ArmorUtil] Ready !");
     }
 }

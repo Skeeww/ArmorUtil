@@ -52,7 +52,6 @@ public class ArmorSpawn implements CommandExecutor {
         armorStand.setArms(true);
         armorStand.setGravity(false);
         armorStand.setBasePlate(false);
-        armorStand.setInvulnerable(true);
         armorStand.setCanPickupItems(false);
         armorStand.setHeadPose(new EulerAngle(
                 MathUtils.degToRad(config.getDouble(args[0]+".head.u")),
@@ -76,6 +75,7 @@ public class ArmorSpawn implements CommandExecutor {
                 MathUtils.degToRad(config.getDouble(args[0]+".arms.right.v")),
                 MathUtils.degToRad(config.getDouble(args[0]+".arms.right.w"))
         ));
+        armorStand.setItemInHand(config.getItemStack(args[0]+".arms.item"));
         armorStand.setLeftLegPose(new EulerAngle(
                 MathUtils.degToRad(config.getDouble(args[0]+".legs.left.u")),
                 MathUtils.degToRad(config.getDouble(args[0]+".legs.left.v")),
@@ -87,8 +87,7 @@ public class ArmorSpawn implements CommandExecutor {
                 MathUtils.degToRad(config.getDouble(args[0]+".legs.right.w"))
         ));
         armorStand.setLeggings(config.getItemStack(args[0]+".legs.item"));
-        armorStand.setItemInHand(config.getItemStack(args[0]+".arms.item"));
-        armorStand.setVisible(false);
+        armorStand.setVisible(true);
         sender.sendMessage(ChatColor.GREEN + "Spawn de l'ArmorStand " + args[0]);
     }
 }
