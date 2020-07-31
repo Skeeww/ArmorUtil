@@ -36,4 +36,4 @@ my-armor:
       w: 0
     item:
       ==: org.bukkit.inventory.ItemStack
-      type: DIAMOND_BOOTS
+      type: DIAMOND_LEGGINGS

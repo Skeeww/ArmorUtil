@@ -1,6 +1,7 @@
 name: ArmorUtil
 main: fr.skewram.ArmorUtil.Main
 version: "1.0"
+depend: [ProtocolLib]
 commands:
   "asp":
     usage: /asp <x> <y> <z>

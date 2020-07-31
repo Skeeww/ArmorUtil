@@ -2,14 +2,12 @@ package fr.skewram.ArmorUtil;
 
 import org.bukkit.ChatColor;
 import org.bukkit.Location;
-import org.bukkit.Material;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.ArmorStand;
 import org.bukkit.entity.Player;
-import org.bukkit.inventory.ItemStack;
 import org.bukkit.util.EulerAngle;
 
 public class ArmorSpawn implements CommandExecutor {
@@ -88,9 +86,9 @@ public class ArmorSpawn implements CommandExecutor {
                 MathUtils.degToRad(config.getDouble(args[0]+".legs.right.v")),
                 MathUtils.degToRad(config.getDouble(args[0]+".legs.right.w"))
         ));
-        armorStand.setBoots(config.getItemStack(args[0]+".legs.item"));
+        armorStand.setLeggings(config.getItemStack(args[0]+".legs.item"));
         armorStand.setItemInHand(config.getItemStack(args[0]+".arms.item"));
-        armorStand.setVisible(true);
+        armorStand.setVisible(false);
         sender.sendMessage(ChatColor.GREEN + "Spawn de l'ArmorStand " + args[0]);
     }
 }
