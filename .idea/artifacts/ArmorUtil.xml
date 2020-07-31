@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ArmorUtil">
+    <output-path>$PROJECT_DIR$/../../TestServ1.12/plugins</output-path>
+    <root id="archive" name="ArmorUtil.jar">
+      <element id="module-output" name="armorutil.main" />
+      <element id="module-source" name="armorutil.main" />
+    </root>
+  </artifact>
+</component>

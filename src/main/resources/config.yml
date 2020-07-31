@@ -1,0 +1,32 @@
+my-armor:
+  head:
+    u: 1
+    v: 2
+    w: 3
+    item: 'DIAMOND_HELMET'
+  chest:
+    u: 1
+    v: 2
+    w: 3
+    item: 'DIAMOND_CHESTPLATE'
+  arms:
+    left:
+      u: 1
+      v: 2
+      w: 3
+      item: 'DIAMOND_SWORD'
+    right:
+      u: 1
+      v: 2
+      w: 3
+      item: 'AIR'
+  legs:
+    left:
+      u: 1
+      v: 2
+      w: 3
+    right:
+      u: 1
+      v: 2
+      w: 3
+    item: 'DIAMOND_LEGGINGS'
