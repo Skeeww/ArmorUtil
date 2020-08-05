@@ -9,11 +9,9 @@
     <list default="true" id="64942803-8eee-4dd9-9c6f-a9d9df6c757e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/fr/skewram/ArmorUtil/ArmorSpawn.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/fr/skewram/ArmorUtil/ArmorSpawn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/fr/skewram/ArmorUtil/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/fr/skewram/ArmorUtil/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/skewram/ArmorUtil/ArmorSpawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/skewram/ArmorUtil/ArmorSpawn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/skewram/ArmorUtil/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/skewram/ArmorUtil/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +44,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1fPVSIt9NgfyebFzl9AxNigTGRS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -102,7 +103,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7d03fb34-87a0-49b0-8955-42118f3ca3dc" name="Default Changelist" comment="" />
+      <changelist id="64942803-8eee-4dd9-9c6f-a9d9df6c757e" name="Default Changelist" comment="" />
       <created>1596119712175</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -111,6 +112,7 @@
       <workItem from="1596192537364" duration="72000" />
       <workItem from="1596192630007" duration="3839000" />
       <workItem from="1596201232310" duration="6027000" />
+      <workItem from="1596622029910" duration="1592000" />
     </task>
     <servers />
   </component>

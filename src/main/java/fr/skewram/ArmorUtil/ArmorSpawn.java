@@ -8,9 +8,12 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.ArmorStand;
 import org.bukkit.entity.Player;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
+import org.bukkit.event.player.PlayerArmorStandManipulateEvent;
 import org.bukkit.util.EulerAngle;
 
-public class ArmorSpawn implements CommandExecutor {
+public class ArmorSpawn implements CommandExecutor, Listener {
     Main instance;
     ArmorSpawn(Main instance){
         this.instance = instance;
@@ -52,7 +55,6 @@ public class ArmorSpawn implements CommandExecutor {
         armorStand.setArms(true);
         armorStand.setGravity(false);
         armorStand.setBasePlate(false);
-        armorStand.setCanPickupItems(false);
         armorStand.setHeadPose(new EulerAngle(
                 MathUtils.degToRad(config.getDouble(args[0]+".head.u")),
                 MathUtils.degToRad(config.getDouble(args[0]+".head.v")),
@@ -88,6 +90,20 @@ public class ArmorSpawn implements CommandExecutor {
         ));
         armorStand.setLeggings(config.getItemStack(args[0]+".legs.item"));
         armorStand.setVisible(true);
+        armorStand.setCanPickupItems(false);
+        armorStand.setInvulnerable(true);
+        armorStand.setCustomName("Garde");
+        armorStand.setCustomNameVisible(false);
         sender.sendMessage(ChatColor.GREEN + "Spawn de l'ArmorStand " + args[0]);
+    }
+
+    @EventHandler
+    private void onArmorStandRightClick(PlayerArmorStandManipulateEvent e){
+        if(e.getRightClicked().getCustomName().equals("Garde")){
+            e.setCancelled(true);
+            e.getPlayer().getInventory().addItem(e.getRightClicked().getItemInHand());
+            e.getPlayer().updateInventory();
+            e.getRightClicked().setItemInHand(null);
+        }
     }
 }
