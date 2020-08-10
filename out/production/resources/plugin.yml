@@ -1,7 +1,0 @@
-name: ArmorUtil
-main: fr.skewram.ArmorUtil.Main
-version: "1.0"
-commands:
-  "asp":
-    usage: /asp <x> <y> <z>
-    description: Fait spawn un armor stand avec un positionnement personnalisé (rotation Eulerienne)
