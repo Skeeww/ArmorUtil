@@ -6,13 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64942803-8eee-4dd9-9c6f-a9d9df6c757e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/fr/skewram/ArmorUtil/ArmorSpawn.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/fr/skewram/ArmorUtil/ArmorSpawn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/fr/skewram/ArmorUtil/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/fr/skewram/ArmorUtil/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/skewram/ArmorUtil/ArmorSpawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/skewram/ArmorUtil/ArmorSpawn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/skewram/ArmorUtil/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/skewram/ArmorUtil/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="64942803-8eee-4dd9-9c6f-a9d9df6c757e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -112,7 +106,7 @@
       <workItem from="1596192537364" duration="72000" />
       <workItem from="1596192630007" duration="3839000" />
       <workItem from="1596201232310" duration="6027000" />
-      <workItem from="1596622029910" duration="1592000" />
+      <workItem from="1596622029910" duration="1702000" />
     </task>
     <servers />
   </component>
