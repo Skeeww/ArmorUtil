@@ -2,6 +2,7 @@ package fr.skewram.ArmorUtil;
 
 import org.bukkit.ChatColor;
 import org.bukkit.Location;
+import org.bukkit.Material;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -11,7 +12,10 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerArmorStandManipulateEvent;
+import org.bukkit.inventory.ItemStack;
 import org.bukkit.util.EulerAngle;
+
+import java.util.Random;
 
 public class ArmorSpawn implements CommandExecutor, Listener {
     Main instance;
@@ -77,7 +81,11 @@ public class ArmorSpawn implements CommandExecutor, Listener {
                 MathUtils.degToRad(config.getDouble(args[0]+".arms.right.v")),
                 MathUtils.degToRad(config.getDouble(args[0]+".arms.right.w"))
         ));
-        armorStand.setItemInHand(config.getItemStack(args[0]+".arms.item"));
+        if(Math.random() <= config.getDouble(args[0]+".arms.drop_chance")){
+            armorStand.setItemInHand(config.getItemStack(args[0]+".arms.item"));
+        }else{
+            armorStand.setItemInHand(null);
+        }
         armorStand.setLeftLegPose(new EulerAngle(
                 MathUtils.degToRad(config.getDouble(args[0]+".legs.left.u")),
                 MathUtils.degToRad(config.getDouble(args[0]+".legs.left.v")),

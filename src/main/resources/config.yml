@@ -25,6 +25,7 @@ my-armor:
     item:
       ==: org.bukkit.inventory.ItemStack
       type: DIAMOND_SWORD
+    drop_chance: 0.5
   legs:
     left:
       u: 90
